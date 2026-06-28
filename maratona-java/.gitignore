@@ -1,30 +1,131 @@
-### IntelliJ IDEA ###
+# =====================================================
+# IntelliJ IDEA
+# =====================================================
+
+.idea/
+*.iml
+*.ipr
+*.iws
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-.kotlin
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+# Arquivos específicos do IntelliJ
+.idea_modules/
+atlassian-ide-plugin.xml
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# =====================================================
+# Java
+# =====================================================
 
-### VS Code ###
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# =====================================================
+# Maven
+# =====================================================
+
+target/
+
+# Wrapper (mantenha estes arquivos versionados)
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+
+# =====================================================
+# Gradle
+# =====================================================
+
+.gradle/
+build/
+
+# Wrapper (mantenha estes arquivos versionados)
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# =====================================================
+# VS Code (caso abra o projeto)
+# =====================================================
+
 .vscode/
 
-### Mac OS ###
+# =====================================================
+# Eclipse
+# =====================================================
+
+.project
+.classpath
+.settings/
+bin/
+
+# =====================================================
+# NetBeans
+# =====================================================
+
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# =====================================================
+# Sistema Operacional
+# =====================================================
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
 .DS_Store
+
+# Linux
+*~
+
+# =====================================================
+# Arquivos de ambiente
+# =====================================================
+
+.env
+.env.*
+
+# =====================================================
+# Arquivos de configuração local
+# =====================================================
+
+*.local
+
+# =====================================================
+# Cobertura de testes
+# =====================================================
+
+coverage/
+jacoco.exec
+
+# =====================================================
+# Relatórios
+# =====================================================
+
+reports/
+
+# =====================================================
+# Cache
+# =====================================================
+
+.cache/
